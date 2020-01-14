@@ -1,14 +1,16 @@
 {
 	"DefaultValues": {
-		"interstitials_up": true,
-		"AB_test_users": 0
+		"isShow": false,
+		"AB_test_users": 100
 	},
 	"ABtests": {
 		"Ref": {
-			"panel_size": 0
+			"isShow": true,
+			"panel_size": 50
 		},
 		"A": {
-			"panel_size": 0
+                        "isShow": false,
+			"panel_size": 50
 		}
 	}
 }
