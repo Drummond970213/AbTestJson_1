@@ -1,1 +1,14 @@
-
+{
+	"DefaultValues": {
+		"interstitials_up": true,
+		"AB_test_users": 0
+	},
+	"ABtests": {
+		"Ref": {
+			"panel_size": 0
+		},
+		"A": {
+			"panel_size": 0
+		}
+	}
+}
